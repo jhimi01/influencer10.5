@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;500;700&family=Open+Sans:ital,wght@0,400;0,700;1,700&family=Poppins:wght@300;500;600;700&family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+ul li {
+  list-style-type: none;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 87px 120px;
+}
+nav .logo h2 {
+  font-size: 24px;
+  color: #3a3a3a;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+
+/* banner secttion */
+.banner {
+  display: flex;
+  align-items: center;
+  padding: 0 120px;
+}
+.banner .content h1 {
+  font-size: 52px;
+  color: #3a3a3a;
+}
+.banner .content p {
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 16px 0;
+}
+.banner .content .btn {
+  background: #e02c6d;
+  padding: 10px 24px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+}
+.banner .image-section {
+  background: url(../image/camera-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header .logos {
+  max-width: 1000px;
+  margin: 100px auto;
+  border-bottom: 1px solid #bebebe;
+  border-top: 1px solid #bebebe;
+  padding: 30px 0;
+}
+.logos .icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* -----------
+    collection
+---------------     */
+.collection-section {
+  margin: 0 120px;
+  position: relative;
+}
+.collection h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #3a3a3a;
+  font-size: 28px;
+  font-weight: 600;
+}
+.collection-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.collection-item .items {
+  padding: 20px 15px;
+  /* background: #daa5a5; */
+  border-radius: 5px;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.301);
+}
+.collection-item .items .item-img img {
+  width: 100%;
+  height: 256px;
+  border-radius: 5px;
+}
+.items .item-content h3 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #3a3a3a;
+}
+.items .item-content h4 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+}
+.items .item-content .stars i {
+  color: #fb8200;
+}
+.items .item-content p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  color: #787885;
+}
+.collection-section button {
+  padding: 20px 10px;
+  color: #e02c6d;
+  background: none;
+  font-size: 16px;
+  border: none;
+  position: absolute;
+  right: 0;
+}
+
+/* ------ feature----------- */
+
+.feature {
+  margin: 96px 130px;
+}
+.feature-products {
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  justify-content: space-between;
+  gap: 96px;
+}
+.feature-products .products-content h1 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #0a0826;
+}
+.feature-products .products-content p {
+  font-size: 16px;
+  font-weight: light;
+  margin: 16px 0;
+  color: #6c6c6c;
+}
+.feature-products .products-content button {
+  padding: 10px 24px;
+  background: #e02c6d;
+  color: #fff;
+  border: none;
+}
+.feature-products .products-img {
+  width: 100%;
+}
+.feature-products img {
+  width: 100%;
+}
+
+/* -------- footer----------- */
+footer {
+  margin-top: 100px;
+  background: #0a0826;
+  color: #fff;
+}
+footer .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    flex-direction: column;
+}
+footer .content h1 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 3px;
+}
+footer .content p {
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 3px;
+}
