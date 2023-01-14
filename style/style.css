@@ -128,12 +128,13 @@ header .logos {
   border: none;
   position: absolute;
   right: 0;
+  margin-top: 40px;
 }
 
 /* ------ feature----------- */
 
 .feature {
-  margin: 96px 130px;
+  margin: 100px 130px;
 }
 .feature-products {
   display: flex;
